@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width:100vw;
+    background-color: black;
+    overflow-x: hidden; 
+}
+
+.header{
+    background-image: url(/asset/styles/media/pexels-pixabay-357428.jpg);
+    background-size: cover;
+    background-position: center bottom;
+
+    padding:100px;
+    height:50vh;
+}
+ h1,h2,p{
+    color: white;
+} 
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 16px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+ .flexstart{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+
+} 
+button{
+    background-color:#fdb467;
+    color: black;
+    width:230px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 14px;
+   
+}
+ .Rowcenter{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sect-1{
+    background-color: rgb(60, 57, 57);
+    border: 1px solid black;
+}
+.sect-1 p,.sect-2 p,.sect-3,.sect-4{
+    padding:40px;
+}
+
+
+.card{
+    width:50%;
+    height: 50vh;
+    
+}
+.trait-vertical{
+    border: 2px solid #fdb467;
+    width:120px;
+   
+   
+}
+.Colcenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapper2,.wrapper3  {
+    gap: 0px;
+}
+
+ .sect-3{
+    background-color: white;
+}
+.sect-3 h2, .sect-3 p{
+    color: black;
+} 
+
+img{
+        width:100%; 
+        background-size: cover; 
+       }
+ .img-Quang{
+    background-image: url(/asset/styles/media/pexels-quang-nguyen-vinh-2166456.jpg);
+ }
+ .img-3{
+    background-image: url(/asset/styles/media/pexels-pixabay-357428.jpg);
+ }
+ .img-Karina{
+    background-image: url(/asset/styles/media/pexels-karina-zhukovskaya-7260337.jpg);
+ }
+ .img-галина{
+  background-image: url(/asset/styles/media/pexels-галина-ласаева-11065504.jpg);  
+ }
+ .img-Karina{
+    background-image: url(/asset/styles/media/pexels-karina-zhukovskaya-7260337.jpg);
+ }
+    .sect-3 .card,.sect-4 .card{
+    width:500px;
+    height: 300px;
+    padding: 10px;
+} 
+  
+.sect-4{
+    background-color: rgb(60, 57, 57)
+}
+.containerImg,.ContImg{
+    height: 50vh;
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+
+    
+}
+ .container2Img{
+    height: 340px;
+    width:367px;
+    background-size: cover;
+     background-position: center bottom; 
+
+} 
+ 
+.wrapper4{
+    background-color: white;
+    margin-bottom: 20px;
+     height:130vh; 
+}
+ .containerBtton{
+margin-top: 100px;
+} 
+.sect-5 h2, .sect-5 p{
+    color: black;
+}
+
+
+h3{
+    color: black;
+}   
+
+ .sect-7 p {
+    color: black;
+} 
+
+.ContImg{
+    
+    background-image: url(/asset/styles/media/pexels-quang-nguyen-vinh-2166494.jpg);
+}
+ 
+.sect-8{
+    background-color: white;
+    padding: 50px;
+    position: absolute;
+    top:367vh;
+    left:30vw;
+}
+.sect-8 h2, .sect-8 p{
+    color: black;
+}
+ .quote{
+   clip-path: circle(40%);
+    color: black;
+    font-weight: 900;
+    background-color: #fdb467;
+    transform: scale(2);
+    padding: 10px;
+} 
+ 
+.footer{
+    background-color: black;
+    height: 350vh;
+    padding:100px;
+}
+.footer p{
+    padding:300px;
+}
+#mail{
+color: white;
+border: 1px solid white;
+background-color: transparent;
+width:200px;
+}
+::placeholder, textarea{
+    background-color:#fdb467;
+    color: white;
+    padding: 5px;
+    width:50vw;
+    
+}
+#name,#mail{
+    width:50vw;
+}
+.container3{
+    background-color: white;
+    border: 1px solid rgb(46, 45, 45);
+    box-shadow: 1px 2px 40px rgb(60, 39, 54);
+    padding:100px;
+    
+    }  

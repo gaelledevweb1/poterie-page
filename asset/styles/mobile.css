@@ -1,0 +1,39 @@
+@media (max-width: 480px) { 
+    .wrapper1,.wrapper2,.wrapper3,.sect-6,.container3 {
+        flex-direction: column;  
+    }
+    .card{
+        width: 100%;
+        padding: 20px;
+        height: 400px;
+    }
+    .Item-1 p{
+        padding: 40px;
+    }
+    .Item-2 p{
+        padding: 60px;
+    }
+    .sect-3,.sect-4{
+        align-items: flex-start; 
+    }
+    .wrapper4{
+        margin-bottom: 0px;
+    }
+    .wrapper4 .card,.wrapper4{
+        height:auto;
+    }
+    .sect-8{
+        top:600vh;
+        left:1vw;
+    }
+    .wrapper5 .card{
+        width:100%;
+        margin:0 auto;
+    }
+    
+    .footer{
+        height:260vh;
+    }
+    
+    
+ }
